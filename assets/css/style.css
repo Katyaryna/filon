@@ -1,0 +1,317 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    /*font-family: 'Amatic SC', cursive;*/
+    background-color: aliceblue;
+    background-color: black;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:black;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size:25px;
+    margin-top:3%;
+    margin-bottom:3%;
+    text-align:center;
+
+    color:white;
+}
+
+h2{
+    font-family: 'Marck Script', cursive;
+    font-size:25px;
+    line-height:2em;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background: url(../img/phon.jpg)
+    no-repeat
+    center;
+}
+
+.intro_inner{
+    padding:1%;
+    background-color:#79326b75;
+}
+.intro_inner img{
+    width:100%;
+}
+
+
+
+
+
+
+/*SEC 2*/
+
+.sec2{
+  /*  background:url(../img/phon2.jpg);*/
+    padding:10%;
+}
+
+
+.sec2_row{
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+    align-items: center;
+
+   
+    background: linear-gradient(to top, #fc5b5b, #482bec);
+    box-shadow:
+     -1px 0px rgb(220, 35, 205), -1px 1px rgb(177, 7, 192),
+     -2px 1px rgb(219, 34, 126), -2px 2px rgb(191, 6, 77),
+     -3px 2px rgb(218, 33, 33), -3px 3px rgb(190, 5, 91),
+     -4px 3px rgb(217, 214, 32), -4px 4px rgb(189,164,4),
+     -5px 4px rgb(216, 31, 161), -5px 5px rgb(188, 3, 34),
+     -6px 5px rgb(215, 30, 116), -6px 6px rgb(187, 2, 33),
+     -7px 6px rgb(214, 29, 174), -7px 7px rgb(186, 1, 186),
+     -8px 7px rgb(213, 28, 105), -8px 8px rgb(185,160,0);
+}
+
+
+.img_sec2{
+    width:100%;
+    flex-wrap:nowrap;
+}
+
+.row_text{
+    width:65%;
+    padding-left:2%;
+    background-color: #f8b19563;
+    text-align:left;
+}
+.row_text h1{
+    text-align:left;
+}
+
+.sec2_text{
+    font-size:15px;
+    font-family: 'Press Start 2P', cursive;
+    text-align:left;
+}
+
+.sec2_img{
+    width:35%;
+    padding:1%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/*SEC 3*/
+
+
+.sec3{
+    background:url(../img/pngwing.com.png)
+    no-repeat
+    center;
+}
+
+
+.col_wrap3{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+
+
+
+.sec3_col{
+    display:flex;
+    flex-direction:column;
+
+    padding:10% 5% 15% 5%;
+}
+
+.sec3_row{
+    display:flex;
+    justify-content: space-around;
+    margin-top:5%;
+}
+
+.sec3_row_col{
+    display:flex;
+    flex-direction: column;
+
+    flex-basis:20%;
+}
+
+.img_sec3{
+    width:100%;
+}
+
+[class^="sec3_text"]{
+    flex:1 1;
+    padding:11%;
+    text-align:center;
+    
+    
+
+    text-transform: uppercase;
+    font-size:15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.sec3_text_one{
+   background-color: #dc95f8ea;
+}
+.sec3_text_two{
+    background-color: #7b5b6dc5;
+}
+.sec3_text_three{
+    background-color: #f6727fcc;
+}
+.sec3_text_four{
+    background-color:#355b7dc9;
+}
+.sec3_text_five{
+    background-color:#57357dc9;
+}
+.sec3_text_six{
+    background-color:#ffd900a2;
+}
+.sec3_text_seven{
+    background-color:#7d3535c9;
+}
+
+
+
+
+/*SEC 1*/
+
+
+
+
+
+
+.sec1{
+    padding:10%;
+    color:white;
+}
+
+.sec1_col{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1_row{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.col_3{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+
+   width:25%;
+   margin-top:3%;
+   margin-bottom:3%;
+
+    width: 80%;
+    max-width: 550px;
+    margin: 2.5em auto 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 20px -15px 10px 5px rgba(255, 0, 0, 0.2);
+  
+}
+
+.bottom{
+    background-color: #f8b195;
+    display:flex;
+    justify-content: center;
+    
+
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.sec1_text{
+    font-size:13px;
+    font-family: 'Press Start 2P', cursive;
+    text-align:center;
+}
+
+.svg{
+    width:30%;
+    align-self: center;
+}
+.svg img{
+    width:100%;
+}
+
+
+
+
+
+
+/*SEC 4*/
+
+
+
+
+.sec_4_row{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.sec_4_img{
+    width:40%;
+}
+
+.sec_4_img img{
+    width:100%;
+}
+
+.sec4_text{
+    width:40%;
+    color:white;
+}
+
+
+footer{
+    background:url(../img/footer.jpg)
+    no-repeat
+    top;
+    }
+.footer_text{
+font-family: 'Amatic SC', cursive;
+text-align: center;
+padding-top:30%;
+color:white;
+font-size:30px;
+}
+
+
+
